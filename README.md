@@ -170,3 +170,26 @@ maxval=10000000
 creating
 time upload
 restarting
+
+real	2m11.255s
+user	0m1.041s
+sys	0m7.151s
+
+
+![image](https://user-images.githubusercontent.com/79476134/144421687-6bc568ad-7b13-4f90-8996-b881ad4441b3.png)
+
+Сохраните на диск аватарку из любой социальной сети (например для vk ссылка) и, воспользовавшись результатами из предыдущих пунктов, рассчитайте сколько таких картинок может вместить ОЗУ вашего компьютера, модифицируйте скрипт и попробуйте записать в redis в виде простых ключей. Посмотрите результаты.
+
+
+imguploader.sh file that contain all functions :
+
+![image](https://user-images.githubusercontent.com/79476134/144423031-0fb9ccae-5371-437c-8865-4587c6d6149a.png)
+
+Time for upload 1,000 string row
+
+real	0m1.131s
+user	0m0.010s
+sys	0m0.211s
+
+
+![image](https://user-images.githubusercontent.com/79476134/144423305-2fbccc4d-aef3-4583-8fc5-b71f091e3f86.png)
