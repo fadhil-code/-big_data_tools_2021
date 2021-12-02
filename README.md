@@ -193,3 +193,17 @@ sys	0m0.211s
 
 
 ![image](https://user-images.githubusercontent.com/79476134/144423305-2fbccc4d-aef3-4583-8fc5-b71f091e3f86.png)
+
+Time for upload 500,000 string row
+
+real	10m42.789s
+user	0m2.099s
+sys	2m42.821s
+
+![image](https://user-images.githubusercontent.com/79476134/144441181-f3b937ec-0a8c-4176-842e-b1fb8df264d0.png)
+
+Time for upload 1,000,00 string row
+
+![image](https://user-images.githubusercontent.com/79476134/144441310-40e89a8b-ee8f-44ef-8bf8-a6327e39c829.png)
+
+
