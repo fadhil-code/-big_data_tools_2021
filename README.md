@@ -165,3 +165,27 @@ sys	0m1.699s
 
 ![image](https://user-images.githubusercontent.com/79476134/144413849-c2faff94-ba0b-4e6b-9900-b5150936ded1.png)
 
+Напишите скрипт для установки 1М хэшей, 10М хэшей. замерьте скорость и потребление памяти
+
+hashuploader.sh file that contain all functions :
+
+![image](https://user-images.githubusercontent.com/79476134/144414221-81182e2d-a057-4977-b569-8f97ebbdc33d.png)
+
+echo "Time for upload 1,000,000 hash..."
+maxval=1000000
+creating
+time upload
+restarting
+
+real	0m10.487s
+user	0m0.152s
+sys	0m0.396s
+
+![image](https://user-images.githubusercontent.com/79476134/144416696-754831a7-f8bb-4eb4-81d0-bc7b5480cdab.png)
+
+
+echo "Time for upload 10,000,000 hash..."
+maxval=10000000
+creating
+time upload
+restarting
