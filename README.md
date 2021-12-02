@@ -180,7 +180,11 @@ sys	0m7.151s
 
 Сохраните на диск аватарку из любой социальной сети (например для vk ссылка) и, воспользовавшись результатами из предыдущих пунктов, рассчитайте сколько таких картинок может вместить ОЗУ вашего компьютера, модифицируйте скрипт и попробуйте записать в redis в виде простых ключей. Посмотрите результаты.
 
+i used fadhil.jpg image ...
 
+![fadhil](https://user-images.githubusercontent.com/79476134/144441908-4c9e515b-a49c-4391-81f1-c2690539b501.jpg)
+
+ 
 imguploader.sh file that contain all functions :
 
 ![image](https://user-images.githubusercontent.com/79476134/144423031-0fb9ccae-5371-437c-8865-4587c6d6149a.png)
