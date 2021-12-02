@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "[ INFO ] Start image uploading script...."
-img="$(cat avatar.jpg | base64 -w 0)"
+img="$(cat fadhil.jpg | base64 -w 0)"
 log_disabling=1
 function restarting {
 	[[ -z "$log_disabling" ]] && echo "[ INFO ] Start restarting"
