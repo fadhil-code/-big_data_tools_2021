@@ -140,3 +140,11 @@ rasp =>
 struploader.sh file that contain all functions :
 
 ![image](https://user-images.githubusercontent.com/79476134/144407690-9a66fbe9-36eb-4f58-b0db-6f8de3181f8b.png)
+
+real	0m5.426s
+user	0m0.129s
+sys	0m0.275s
+
+![image](https://user-images.githubusercontent.com/79476134/144410343-f950c364-9009-489f-a521-607e536d3977.png)
+
+
