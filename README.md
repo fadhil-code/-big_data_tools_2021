@@ -114,26 +114,8 @@ Zincrby scores 3 mail
 
 Результат в файле output2.txt
 
-priv => WRONGTYPE Operation against a key holding the wrong kind of value
-scores => WRONGTYPE Operation against a key holding the wrong kind of value
-rasp:count => 2
-users:msg => {name: Fadhil, likes: [redis]}is my name
-rtf => 
-  url
-  http://rtf.urfu.ru
-urfu => WRONGTYPE Operation against a key holding the wrong kind of value
-mail => 
-  url
-  http://mail.urfu.ru
-rasp:comments => 
-  good
-  nice
-  not bad
-rasp => 
-  url
-  http://urfu.ru/ru/students/study/schedule/
-  count
-  0
+![image](https://user-images.githubusercontent.com/79476134/144417060-4f8eaa25-8f9e-4d13-b88b-e7fd444cd99d.png)
+
 
 Напишите скрипт для установки 1М простых ключей, 10М простых ключей замерьте скорость и потребление памяти
 
