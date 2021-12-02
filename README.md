@@ -114,8 +114,7 @@ Zincrby scores 3 mail
 
 Результат в файле output2.txt
 
-![image](https://user-images.githubusercontent.com/79476134/144417060-4f8eaa25-8f9e-4d13-b88b-e7fd444cd99d.png)
-
+![image](https://user-images.githubusercontent.com/79476134/144417209-92b43dd1-65ec-496c-ac13-31a29fb0fcd4.png)
 
 Напишите скрипт для установки 1М простых ключей, 10М простых ключей замерьте скорость и потребление памяти
 
