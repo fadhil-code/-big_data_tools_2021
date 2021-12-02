@@ -112,8 +112,6 @@ Zincrby scores 3 mail
 
 ![image](https://user-images.githubusercontent.com/79476134/144401680-1077e4ec-9d7c-4176-a09c-ec66e2cb402e.png)
 
-Напишите скрипт для установки 1М простых ключей, 10М простых ключей замерьте скорость и потребление памяти
-
 Результат в файле output2.txt
 
 priv => WRONGTYPE Operation against a key holding the wrong kind of value
@@ -137,4 +135,8 @@ rasp =>
   count
   0
 
- 
+Напишите скрипт для установки 1М простых ключей, 10М простых ключей замерьте скорость и потребление памяти
+
+struploader.sh file that contain all functions :
+
+![image](https://user-images.githubusercontent.com/79476134/144407690-9a66fbe9-36eb-4f58-b0db-6f8de3181f8b.png)
