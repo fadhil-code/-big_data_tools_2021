@@ -157,3 +157,23 @@ fadhil_node2:
 ![image](https://user-images.githubusercontent.com/79476134/144933691-36512394-cf92-464b-a7d7-7c12a8392714.png)
 
 ![image](https://user-images.githubusercontent.com/79476134/144933782-94825ded-f092-482b-a286-d9679e69b4c8.png)
+
+
+config core-site.xml
+sudo nano core-site.xml
+![image](https://user-images.githubusercontent.com/79476134/144934767-9fcf6292-818d-4141-88de-af3799ae0e51.png)
+
+
+sudo nano hdfs-site.xml
+
+![image](https://user-images.githubusercontent.com/79476134/144934475-2e0b1dc3-e677-459d-9067-db29d2179415.png)
+
+sudo nano yarn-site.xml
+
+![image](https://user-images.githubusercontent.com/79476134/144934973-a5329f61-c2a9-4309-b40a-536cf028be01.png)
+
+sudo nano mapred-site.xml
+
+![image](https://user-images.githubusercontent.com/79476134/144935158-8dc026dd-3025-4f13-a332-047ee0b2bc82.png)
+
+
