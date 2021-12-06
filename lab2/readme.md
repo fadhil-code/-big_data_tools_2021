@@ -6,13 +6,14 @@
 1.Установить и настроить кластер HDFS согласно инструкции Cluster и примеру
 2.Воспроизвести схему кластера из презентации (Лабораторная №2)
 3.Настроить NameNode и один DataNode
-![image](https://user-images.githubusercontent.com/79476134/144881182-2db0b0cd-baaf-487d-9d5b-b0d83a201e04.png)
-
 ![image](https://user-images.githubusercontent.com/79476134/144880945-fbd79ca1-7e53-4d47-af43-7020f394e752.png)
-
+Node1:192.168.68.139
+![image](https://user-images.githubusercontent.com/79476134/144881182-2db0b0cd-baaf-487d-9d5b-b0d83a201e04.png)
+Ndoe2:192.168.68.140
 ![image](https://user-images.githubusercontent.com/79476134/144881341-d7b22480-c13e-4f8b-a83f-ca8c0cc6524b.png)
+master:192.168.68.141
+![image](https://user-images.githubusercontent.com/79476134/144885876-11722d97-7da4-4658-83ae-3c13e848e415.png)
 
-![image](https://user-images.githubusercontent.com/79476134/144881425-89a51904-e841-462d-8a7a-a3d3685e04bf.png)
 
 sudo nano /etc/hosts
 
@@ -42,5 +43,25 @@ Download the below file on node 1
 
  https://downloads.apache.org/hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz
  
+ visudo
  
+![image](https://user-images.githubusercontent.com/79476134/144888667-e91645f2-ead7-41c6-abe7-04eff60e6503.png)
+
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin
+
+![image](https://user-images.githubusercontent.com/79476134/144886991-6ed39ab8-f01c-423a-a94f-45e8d7c98dcb.png)
+
+source .bashrc
+java -version
+echo $JAVA_HOME 
+
+![image](https://user-images.githubusercontent.com/79476134/144887282-a446b3ad-5ccf-4830-bc44-2333b286e2ad.png)
+
+nano .bashrc
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin
+
+![image](https://user-images.githubusercontent.com/79476134/144888967-22d23c33-4bbf-4fa3-b8cf-ff9264914cae.png)
 
