@@ -131,3 +131,29 @@ scp /home/fadhil/Downloads/hadoop-3.3.1.tar.gz fadhil@fadhil_node2:/tmp
 
 ![image](https://user-images.githubusercontent.com/79476134/144932805-0cdf7ed0-2189-46e8-935e-e0564e347db9.png)
 
+on fadhil_node2:
+![image](https://user-images.githubusercontent.com/79476134/144932982-6c6426fb-503c-429d-bb0d-3aeda781f3fb.png)
+
+sudo tar -xvf /tmp/hadoop-3.3.1.tar.gz
+
+ls -all
+
+![image](https://user-images.githubusercontent.com/79476134/144933143-cb7d567b-f80f-4491-a251-0d801f66ad12.png)
+
+The decompressed folder is now present in the /usr/local.
+
+sudo ln -s hadoop-3.3.1 hadoop
+sudo chown -R fadhil:fadhil hadoop*
+ls -all
+
+![image](https://user-images.githubusercontent.com/79476134/144933354-d62bad6a-3cd7-4c67-8e61-6d0278a8ce8c.png)
+
+fadhil_node1:
+scp .bashrc fadhil@fadhil_node2:/home/fadhil
+![image](https://user-images.githubusercontent.com/79476134/144933599-b9b237dd-fb68-4a16-b912-c666431f353d.png)
+
+fadhil_node2:
+
+![image](https://user-images.githubusercontent.com/79476134/144933691-36512394-cf92-464b-a7d7-7c12a8392714.png)
+
+![image](https://user-images.githubusercontent.com/79476134/144933782-94825ded-f092-482b-a286-d9679e69b4c8.png)
