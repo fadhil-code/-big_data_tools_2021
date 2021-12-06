@@ -6,38 +6,39 @@
 1.Установить и настроить кластер HDFS согласно инструкции Cluster и примеру
 2.Воспроизвести схему кластера из презентации (Лабораторная №2)
 3.Настроить NameNode и один DataNode
-![image](https://user-images.githubusercontent.com/79476134/144880945-fbd79ca1-7e53-4d47-af43-7020f394e752.png)
-Node1:192.168.68.139
+
+fadhil_node1:192.168.68.142
 ![image](https://user-images.githubusercontent.com/79476134/144881182-2db0b0cd-baaf-487d-9d5b-b0d83a201e04.png)
-Ndoe2:192.168.68.140
+fadhil_ndoe2:192.168.68.143
 ![image](https://user-images.githubusercontent.com/79476134/144881341-d7b22480-c13e-4f8b-a83f-ca8c0cc6524b.png)
-master:192.168.68.141
+fadhil_master:192.168.68.144
 ![image](https://user-images.githubusercontent.com/79476134/144885876-11722d97-7da4-4658-83ae-3c13e848e415.png)
 
 
 sudo nano /etc/hosts
 
-![image](https://user-images.githubusercontent.com/79476134/144881673-83871199-6236-433e-8a72-190f9fcc121d.png)
+![image](https://user-images.githubusercontent.com/79476134/144924871-e81bed19-f0b9-4230-8b94-890a028b4a67.png)
+
 
 ping all nodes 
 
-![image](https://user-images.githubusercontent.com/79476134/144881977-2f6f7e7a-079a-461e-b347-4dcb2e8974bc.png)
+![image](https://user-images.githubusercontent.com/79476134/144925044-57d2f9ff-e06f-46ae-a5e6-dae7070794ae.png)
 
 ufw disable
 
-![image](https://user-images.githubusercontent.com/79476134/144882243-c3a27c28-6df1-42c9-9362-3ff8ceb45ea0.png)
+![image](https://user-images.githubusercontent.com/79476134/144925175-dab7ec2b-3d36-4131-a587-d9092c958585.png)
 
 Installing SSH, Java
 
 sudo apt install openssh-server
 
-![image](https://user-images.githubusercontent.com/79476134/144882538-1e3d8f4f-f4a2-401a-bce2-a9d53a6d611c.png)
+![image](https://user-images.githubusercontent.com/79476134/144925454-8718b39e-922d-466f-9935-d1e8ea574ca2.png)
+
 
 sudo apt install openjdk-8-jdk
 
-![image](https://user-images.githubusercontent.com/79476134/144882864-5fcaeee9-a743-4c6c-a413-cf9d4acbd730.png)
+![image](https://user-images.githubusercontent.com/79476134/144925654-20c25335-7575-4270-bdfb-8f341ab2c668.png)
 
-![image](https://user-images.githubusercontent.com/79476134/144883260-3a7a72c2-b991-4b07-b4ce-88d206bd6452.png)
 
 Download the below file on node 1
 
