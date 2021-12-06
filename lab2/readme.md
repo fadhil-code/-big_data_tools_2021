@@ -46,7 +46,7 @@ Download the below file on node 1
  
  visudo
  
-![image](https://user-images.githubusercontent.com/79476134/144888667-e91645f2-ead7-41c6-abe7-04eff60e6503.png)
+![image](https://user-images.githubusercontent.com/79476134/144928115-b0a469a0-2809-4fa7-9f8b-5561a89cdaf5.png)
 
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
@@ -60,9 +60,13 @@ echo $JAVA_HOME
 
 ![image](https://user-images.githubusercontent.com/79476134/144887282-a446b3ad-5ccf-4830-bc44-2333b286e2ad.png)
 
+sudo apt install vim
+
 nano .bashrc
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
+
+![image](https://user-images.githubusercontent.com/79476134/144928822-ab26ca73-be5a-411a-9161-281c740d8bd3.png)
 
 ![image](https://user-images.githubusercontent.com/79476134/144888967-22d23c33-4bbf-4fa3-b8cf-ff9264914cae.png)
 
@@ -70,14 +74,12 @@ Extract the Hadoop folder downloaded. Using the tar command, the file is decompr
 
 sudo tar -xvf /home/magna/Downloads/hadoop-3.3.1.tar.gz
 
-![image](https://user-images.githubusercontent.com/79476134/144890205-d1e3366f-221c-44fd-a7c9-1d9221fb2fdf.png)
+![image](https://user-images.githubusercontent.com/79476134/144929328-3a96a8a6-0aec-4f1f-a8dd-c79b5ef7a591.png)
 
-![image](https://user-images.githubusercontent.com/79476134/144890473-0bc6df70-f486-4beb-b64f-d514a9ca289b.png)
-
-![image](https://user-images.githubusercontent.com/79476134/144891044-b29a5464-15b2-40ea-b0a3-218cbcdc54f4.png)
+![image](https://user-images.githubusercontent.com/79476134/144929643-ddcb4f69-0b28-4a32-9222-676d3bcb7cc3.png)
 
 Setting environment variables for node1
-export HADOOP_INSTALL=/usr/local/Hadoop
+export HADOOP_INSTALL=/usr/local/hadoop
 export PATH=$PATH:$HADOOP_INSTALL/bin
 export PATH=$PATH:$HADOOP_INSTALL/sbin
 
@@ -87,31 +89,45 @@ source .bashrc                         #(To implement the changes)
 
 hadoop version   
 
-![image](https://user-images.githubusercontent.com/79476134/144891669-7612df39-d8e0-42cf-96e6-aa44cb0d2d99.png)
-
 SSH settings for node1
 
 sudo ufw disable (Disable the firewall)
 ssh-keygen -t rsa -P ””
 
-![image](https://user-images.githubusercontent.com/79476134/144891954-a38481bf-dd7d-47a5-8217-c50ffc308755.png)
-
 ls -all .ssh
 
-![image](https://user-images.githubusercontent.com/79476134/144892228-c043b8c1-2d2b-4572-8783-167a26f33860.png)
+![image](https://user-images.githubusercontent.com/79476134/144930544-6781c1bf-be09-4020-9e0a-f930740e534b.png)
 
+ssh-copy-id -i $HOME/.ssh/id_rsa.pub fadhil@fadhil_node2
 
-![image](https://user-images.githubusercontent.com/79476134/144912570-427eca1b-c198-4f11-9762-57ed6f7a9938.png)
+![image](https://user-images.githubusercontent.com/79476134/144930566-7f0f350d-04bb-462b-84b2-6adabf92af52.png)
+
+fadhil_node2:
 
 sudo ufw disable                        #(Disable the firewall)
 ssh-keygen -t rsa -P ””
 
 ![image](https://user-images.githubusercontent.com/79476134/144912653-7a91c665-07d1-423f-aafd-5046f908e686.png)
 
-ssh-copy-id -i $HOME/.ssh/id_rsa.pub node1@Node1
+ssh-copy-id -i $HOME/.ssh/id_rsa.pub fadhil@fadhil_node1
 
 ls -all .ssh
+![image](https://user-images.githubusercontent.com/79476134/144931204-49e58937-90f4-4b5d-85c4-673d5c4308c8.png)
 
-![image](https://user-images.githubusercontent.com/79476134/144912858-1d52c016-9817-4bba-9981-86389626b3f3.png)
+from fadhil_node1:
+ssh fadhil_node2
+![image](https://user-images.githubusercontent.com/79476134/144931501-f2227333-7c6c-407c-9f5f-609873f734af.png)
 
+from fadhil_node2:
+ssh fadhil_node1
+![image](https://user-images.githubusercontent.com/79476134/144931593-91daeb9e-369e-4851-bdf0-e8c19aa8082d.png)
+
+
+cat $HOME/.ssh/id_rsa.pub>>$HOME/.ssh/authorized_keys
+
+![image](https://user-images.githubusercontent.com/79476134/144932857-bf3fd24f-b935-4e24-af73-19abdfc01131.png)
+
+scp /home/fadhil/Downloads/hadoop-3.3.1.tar.gz fadhil@fadhil_node2:/tmp
+
+![image](https://user-images.githubusercontent.com/79476134/144932805-0cdf7ed0-2189-46e8-935e-e0564e347db9.png)
 
