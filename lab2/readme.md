@@ -65,3 +65,38 @@ export PATH=$PATH:$JAVA_HOME/bin
 
 ![image](https://user-images.githubusercontent.com/79476134/144888967-22d23c33-4bbf-4fa3-b8cf-ff9264914cae.png)
 
+Extract the Hadoop folder downloaded. Using the tar command, the file is decompressed.
+
+sudo tar -xvf /home/magna/Downloads/hadoop-3.3.1.tar.gz
+
+![image](https://user-images.githubusercontent.com/79476134/144890205-d1e3366f-221c-44fd-a7c9-1d9221fb2fdf.png)
+
+![image](https://user-images.githubusercontent.com/79476134/144890473-0bc6df70-f486-4beb-b64f-d514a9ca289b.png)
+
+![image](https://user-images.githubusercontent.com/79476134/144891044-b29a5464-15b2-40ea-b0a3-218cbcdc54f4.png)
+
+Setting environment variables for node1
+export HADOOP_INSTALL=/usr/local/Hadoop
+export PATH=$PATH:$HADOOP_INSTALL/bin
+export PATH=$PATH:$HADOOP_INSTALL/sbin
+
+![image](https://user-images.githubusercontent.com/79476134/144891238-c8c061ce-c813-440a-a96f-f5d94f3d7463.png)
+
+source .bashrc                         #(To implement the changes)
+
+hadoop version   
+
+![image](https://user-images.githubusercontent.com/79476134/144891669-7612df39-d8e0-42cf-96e6-aa44cb0d2d99.png)
+
+SSH settings for node1
+
+sudo ufw disable (Disable the firewall)
+ssh-keygen -t rsa -P ””
+
+![image](https://user-images.githubusercontent.com/79476134/144891954-a38481bf-dd7d-47a5-8217-c50ffc308755.png)
+
+ls -all .ssh
+
+![image](https://user-images.githubusercontent.com/79476134/144892228-c043b8c1-2d2b-4572-8783-167a26f33860.png)
+
+
