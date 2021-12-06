@@ -100,3 +100,17 @@ ls -all .ssh
 ![image](https://user-images.githubusercontent.com/79476134/144892228-c043b8c1-2d2b-4572-8783-167a26f33860.png)
 
 
+![image](https://user-images.githubusercontent.com/79476134/144912570-427eca1b-c198-4f11-9762-57ed6f7a9938.png)
+
+sudo ufw disable                        #(Disable the firewall)
+ssh-keygen -t rsa -P ””
+
+![image](https://user-images.githubusercontent.com/79476134/144912653-7a91c665-07d1-423f-aafd-5046f908e686.png)
+
+ssh-copy-id -i $HOME/.ssh/id_rsa.pub node1@Node1
+
+ls -all .ssh
+
+![image](https://user-images.githubusercontent.com/79476134/144912858-1d52c016-9817-4bba-9981-86389626b3f3.png)
+
+
