@@ -161,7 +161,8 @@ fadhil_node2:
 
 config core-site.xml
 sudo nano core-site.xml
-![image](https://user-images.githubusercontent.com/79476134/144934767-9fcf6292-818d-4141-88de-af3799ae0e51.png)
+![image](https://user-images.githubusercontent.com/79476134/145017093-15220c70-b7ee-4406-a64a-dcfb5ff03cdd.png)
+
 
 
 sudo nano hdfs-site.xml
@@ -174,6 +175,19 @@ sudo nano yarn-site.xml
 
 sudo nano mapred-site.xml
 
-![image](https://user-images.githubusercontent.com/79476134/144935158-8dc026dd-3025-4f13-a332-047ee0b2bc82.png)
+![image](https://user-images.githubusercontent.com/79476134/145017454-a53e65d0-d9db-4b91-a6cd-f1ab3f6c8bd1.png)
+
+![image](https://user-images.githubusercontent.com/79476134/145017687-582942ba-020c-4e4a-8142-8916d7dd6d8e.png)
+
+![image](https://user-images.githubusercontent.com/79476134/145017892-005077a8-af05-4160-be94-b9497c6cb03f.png)
+
+do same for fadhil_node2:
+![image](https://user-images.githubusercontent.com/79476134/145018574-840721e6-35b5-4df5-9b67-af6b1b2a89da.png)
+
+![image](https://user-images.githubusercontent.com/79476134/145018694-cb4503ab-42d6-440d-9c83-35107e024949.png)
+
+![image](https://user-images.githubusercontent.com/79476134/145018835-4c082a20-df01-467d-9daa-16fbac13a2de.png)
+
+![image](https://user-images.githubusercontent.com/79476134/145019000-1a844d48-2fe5-4258-a9be-80351535c55c.png)
 
 
