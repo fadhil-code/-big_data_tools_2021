@@ -20,6 +20,7 @@
 Пуск "МАСТЕР"
 Нажмите на терминал и проверьте IP-адрес.
 Ip addr
+
  ![image](https://user-images.githubusercontent.com/79476134/147243252-0580a61c-bdbc-47e3-b8b0-352b13eb4860.png)
 ![image](https://user-images.githubusercontent.com/79476134/147243265-83691687-cfb0-43de-b8ad-af7b7ed84fb4.png)
 ![image](https://user-images.githubusercontent.com/79476134/147243273-d082d674-c2e2-45df-ab99-21974cc0d66c.png)
